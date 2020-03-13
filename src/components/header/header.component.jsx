@@ -19,6 +19,12 @@ const Header = () => (
             <Link className='option' to='/shop'>
                 CONTACT
             </Link>
+            {
+                currentUser ?
+                <div></div>
+                :
+                <Link></Link>
+            }
         </div>
     </div>
 )
